@@ -18,6 +18,9 @@ namespace AWSLambdaCreateBook.Models
         [DynamoDBProperty("author")]
         [JsonPropertyName("author")]
         public string Author { get; set; } = default!;
-        // Agrega más propiedades según tu estructura JSON
+
+        [DynamoDBProperty("published")]
+        [JsonPropertyName("published")]
+        public DateTime Published { get; set; } = default!;
     }
 }
