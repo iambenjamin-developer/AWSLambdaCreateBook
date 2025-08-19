@@ -47,3 +47,10 @@ Deploy function to AWS Lambda
     cd "AWSLambdaCreateBook/src/AWSLambdaCreateBook"
     dotnet lambda deploy-function
 ```
+
+Body de ejemplo
+```
+{
+  "body": "{\"title\": \"un dia de furia\", \"author\": \"michael douglas\"}"
+}
+```
